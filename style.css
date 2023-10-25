@@ -1,0 +1,42 @@
+.pro{
+    text-decoration: underline ;
+}
+.background{
+    background-image: url(./static/back-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20%;
+}
+.title-color{
+    color: antiquewhite;
+}
+.intro{
+    padding-top: 5%;
+    text-align: center;
+}
+h2, h3, p{
+    font-family: "Montserrat", sans-serif;
+}
+.text{
+    color: steelblue;
+    padding: 1rem;
+}
+.skills{
+    text-align: left;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 50%;
+    margin: 10px auto 0 auto;
+    gap: 10px;
+    row-gap: 20px;
+}
+.bottom{
+    margin: 30px;
+    text-align: center;
+}
+.footer{
+    background: linear-gradient(300deg, #134d61, #cbbfc0, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
